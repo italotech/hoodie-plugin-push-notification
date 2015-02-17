@@ -18,7 +18,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/goappes/hoodie-plugin-cordova-notification"
+    "url": "https://github.com/goappes/hoodie-plugin-push-notification"
   },
   "author": "GoAppes <apes@goappes.com>",
   "contributors": [
