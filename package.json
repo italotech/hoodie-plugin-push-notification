@@ -1,0 +1,56 @@
+{
+  "name": "hoodie-plugin-push-notification",
+  "version": "0.1.0",
+  "description": "Cordova Push Notification hoodie plugin",
+  "dependencies": {
+    "apn": "^1.6.2",
+    "async": "^0.9.0",
+    "lodash": "^3.2.0",
+    "node-gcm": "^0.9.14"
+  },
+  "keywords": [
+    "hoodie",
+    "notification",
+    "cordova",
+    "goappes",
+    "plugin"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goappes/hoodie-plugin-cordova-notification"
+  },
+  "author": "GoAppes <apes@goappes.com>",
+  "contributors": [
+    {
+      "name": "GoAppes",
+      "email": "apes@goappes.com"
+    },
+    {
+      "name": "Gabriel Mancini",
+      "email": "gabriel@goappes.com"
+    },
+    {
+      "name": "João Neto",
+      "email": "joao@goappes.com"
+    },
+    {
+      "name": "Italo Amorim",
+      "email": "italo@goappes.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "gabriel",
+      "email": "gabriel@goappes.com"
+    },
+    {
+      "name": "joao",
+      "email": "joao@goappes.com"
+    },
+    {
+      "name": "italo",
+      "email": "italo@goappes.com"
+    }
+  ]
+}
