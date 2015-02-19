@@ -1,8 +1,28 @@
 hoodie-plugin-cordova-notification
 ==================================
 
-This plugin watch for notification task plugin and trigger PushNotification
+This plugin watch for notification task and trigger PushNotification.
 
+Dependencies:
+-------------
+hoodie-plugin-profile
+hoodie-utils-plugins
+
+
+Notifictions
+------------
+When task is intercepted by `notification:change` event, the notification schema should contains:
+```
+  {
+    notificationType: 'requestFriend',
+    from: userId,
+    to: userId
+  }
+```
+
+Possible notificationType:
+  - requestFriend
+  - acceptedFriend
 
 ## Dependencies
 ```shell
