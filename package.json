@@ -1,6 +1,6 @@
 {
   "name": "hoodie-plugin-push-notification",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Push Notification hoodie plugin",
   "dependencies": {
     "apn": "^1.6.2",
