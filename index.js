@@ -11,15 +11,18 @@ module.exports = function (hoodie, callback) {
       notification.send(
         doc.notification.notificationType,
         doc.notification.from,
-        doc.notification.to
+        doc.notification.to,
+        function (err) {
+          console.log(err);
+        }
       );
     }
 
-    // console.log()
-    // console.log('--------------------------------------------------------------------------------')
-    // console.log(doc.notification)
-    // console.log(db)
-    // console.log('--------------------------------------------------------------------------------')
+    console.log()
+    console.log('--------------------------------------------------------------------------------')
+    console.log(doc.notification)
+    console.log(db)
+    console.log('--------------------------------------------------------------------------------')
   });
 
   async.series([
